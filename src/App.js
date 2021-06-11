@@ -1,14 +1,8 @@
-import React from 'react'
-import NotFound from './NotFound'
+import React from "react";
+import { ErrorPage } from "./components/ErrorPage";
 
 function App() {
-  return (
-    <div>
-      <header>
-        <NotFound />
-      </header>
-    </div>
-  );
+  return <ErrorPage />;
 }
 
 export default App;
